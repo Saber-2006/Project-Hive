@@ -14,12 +14,13 @@ import {
   Button,
 } from "@heroui/react";
 
-import PillNav from '/Users/macbook/Documents/projects/ProjectHive/src/components/PillNav.jsx';
+
 import { IoMdSearch } from "react-icons/io";
 import {getUserData} from "@/components/shared/Userdata";
 import { Link } from 'react-router-dom';
 import { FaThList } from "react-icons/fa";
 import CreatProject from '../ui/CreatProject';
+import PillNav from '../PillNav';
 
 
 export default function Navebar({ activePath = "/" }) {
