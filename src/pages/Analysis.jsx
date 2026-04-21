@@ -6,7 +6,19 @@ import Barchart from './Barchart';
 
 export default function Analysis() {
 
-const projects= JSON.parse(localStorage.getItem("projects")||[]);
+let projects = [];
+
+if (typeof window !== "undefined") {
+  try {
+    projects = JSON.parse(localStorage.getItem("projects") || "[]");
+  } catch {
+    projects = [];
+  }
+}
+
+if (!projects.length) {
+  return <div className="text-gray-500">No projects yet</div>;
+}
 let ActiveProjects= projects.filter((p)=> p.state==="Active");
 let ONHoldProjects= projects.filter((p)=> p.state==="Hold");  
 let CompletedProjects= projects.filter((p)=> p.state==="Completed");  
