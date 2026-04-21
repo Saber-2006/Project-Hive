@@ -10,7 +10,7 @@ export default function MainLayout() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       <Navebar activePath={location.pathname} />
-      <main className="mt-10 pt-10 mx-3  "> {/* Add padding-top for fixed navbar */}
+      <main className="mt-10 pt-10 mx-3  ">
         <Outlet />
       </main>
     </div>

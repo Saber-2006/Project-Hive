@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
-import Projects from './pages/ Projects';
+import Projects from './pages/Projects';
 import Analysis from './pages/Analysis';
 import Board from './pages/Board';
 import ProjectDetails from './pages/ProjectDetails';
