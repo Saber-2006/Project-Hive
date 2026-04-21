@@ -195,7 +195,7 @@ return (
 </div>
 
 <div className="Stats grid grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center p-5">
-      <Card  className='w-[200px] backdrop-blur-md bg-blue-500/10 border
+      <Card  className='w-full max-w-[200px] backdrop-blur-md bg-blue-500/10 border
       border-blue-400/30 rounded-2xl shadow-xl
       dark:bg-blue-500/20 dark:border-blue-400/50
       '>
@@ -207,7 +207,7 @@ return (
           </CardBody>
       </Card>
 
-          <Card  className='w-[200px] backdrop-blur-md bg-green-500/10 border
+          <Card  className='w-full max-w-[200px] backdrop-blur-md bg-green-500/10 border
       border-green-400/30 rounded-2xl shadow-xl
       dark:bg-green-500/20 dark:border-green-400/50
       '>
@@ -218,7 +218,7 @@ return (
         <p className=" text-2xl font-bold">{completedTAsks}</p>
           </CardBody>
       </Card>
-      <Card  className='w-[200px] backdrop-blur-md bg-yellow-500/10 border
+      <Card  className='w-full max-w-[200px] backdrop-blur-md bg-yellow-500/10 border
       border-yellow-400/30 rounded-2xl shadow-xl
       dark:bg-yellow-500/20 dark:border-yellow-400/50
       '>
@@ -230,7 +230,7 @@ return (
           </CardBody>
       </Card>
 
-      <Card  className='w-[200px] backdrop-blur-md bg-purple-500/10 border
+      <Card  className='w-full max-w-[200px] backdrop-blur-md bg-purple-500/10 border
       border-purple-400/30 rounded-2xl shadow-xl
       dark:bg-purple-500/20 dark:border-purple-400/50
       '>
